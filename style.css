@@ -1,0 +1,57 @@
+#container{
+    width: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.showcase{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(/photo/showcase.png) no-repeat center/cover;
+}
+
+nav{
+    height: 40px;
+    background: #333;
+    position: fixed;
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+    padding: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #eee;
+}
+
+.text{
+    max-width: 1180px;
+    text-align: center;
+    margin: auto;
+    padding: 30vh 3rem;
+    color: white;
+}
+
+.text h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.text h2{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text p{
+    font-size: 21px;
+    line-height: 2rem;
+}
