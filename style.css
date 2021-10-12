@@ -26,7 +26,7 @@ li{
     text-align: center;
 }
 
-a{
+.showcase a{
     text-decoration: none;
     color: #eee;
 }
@@ -39,19 +39,56 @@ a{
     color: white;
 }
 
-.text h1{
-    font-size: 4rem;
+h1{
+    font-size: 3rem;
     font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.text h2{
-    margin-top: 4rem;
+ h2{
+    margin-top: 3rem;
     margin-bottom: 3rem;
     font-size: 2rem;
     font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.text p{
+p{
+    width: 55%;
     font-size: 21px;
     line-height: 2rem;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#music{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #252529;
+}
+
+img{
+    width: 50%;
+    margin: 0 25%;
+}
+
+#music a{
+    text-decoration: none;
+    width: 150px;
+    height: 20px;
+    padding: 1rem;
+    font-size: 1.rem;
+    display: inline-block;
+    margin: 15px 45%;
+    background: #D3071B;
+    color: #eee;
 }
