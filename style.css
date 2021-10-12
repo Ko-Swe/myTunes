@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url(/photo/showcase.png) no-repeat center/cover;
+    background: url(landing.png) no-repeat center/cover;
 }
 
 nav{
