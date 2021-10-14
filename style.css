@@ -181,3 +181,15 @@ h1{
     text-decoration: none;
     color: white;
 }
+
+.column ul li{
+    padding-bottom: 0.5%;
+}
+
+footer{
+    background: #2e2d30;
+    text-align: center;
+    color: white;
+    height: 3vh;
+    padding-top: 1%;
+}
