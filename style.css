@@ -1,5 +1,4 @@
 #container{
-    width: 100%;
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
@@ -76,15 +75,21 @@ h1{
 }
 
 #music img , #video img{
-    width: 50%;
-    margin: 0 25%;
+    width: 750px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #music a{
     text-decoration: none;
-    width: 150px;
+    width: 190px;
     height: 20px;
     padding: 1rem;
+    text-align: center;
     font-size: 1.rem;
     display: inline-block;
     margin: 15px 45%;
@@ -100,7 +105,7 @@ h1{
 
 #video a{
     text-decoration: none;
-    width: 83px;
+    width: 100px;
     padding: 1rem;
     display: inline-block;
     margin: 15px 45%;
@@ -184,6 +189,8 @@ h1{
 
 .column ul li{
     padding-bottom: 0.5%;
+    margin-left: 0;
+
 }
 
 footer{
@@ -192,4 +199,18 @@ footer{
     color: white;
     height: 3vh;
     padding-top: 1%;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
 }
